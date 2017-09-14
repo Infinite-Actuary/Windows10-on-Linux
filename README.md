@@ -31,11 +31,15 @@ Before actually succeeding, I tried:
 * [UNetbootin](http://unetbootin.github.io/)
 * Default utility `USB Image Writer` provided by Mint
 
-All of which are great pieces of software, but simply didn't work for my use case. However, [WoeUSB](https://github.com/slacka/WoeUSB)
+All of which are great pieces of software, but simply didn't work for my use case. However, [WoeUSB](https://github.com/slacka/WoeUSB): "A Linux program to create Windows USB stick installer from a real Windows DVD or an image", worked great!
 
-> A Linux program to create Windows USB stick installer from a real Windows DVD or an image.
+To actually install it I used:
 
-worked great!
+```Bash
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt update
+sudo apt install woeusb
+```
 
 
 ## Preparations - Make Space for Windows 10
