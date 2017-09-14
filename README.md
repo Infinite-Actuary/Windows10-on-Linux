@@ -75,3 +75,4 @@ Don't forget this step, as you won't even be able to personalize your Desktop wi
 
 Fast startup is great. As you can imagine it greatly reduces the startup time for Windows. However, it also prevents me from mounting the drive from Mint.
 
+![no-mount](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/windows10-mount.png)
