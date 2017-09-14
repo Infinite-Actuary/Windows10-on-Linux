@@ -43,7 +43,8 @@ sudo apt install woeusb
 
 
 ## Preparations - Make Space for Windows 10
-* With a [Live CD](https://en.wikipedia.org/wiki/Live_CD), use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
+* Make sure you have a [Live CD](https://en.wikipedia.org/wiki/Live_CD)!
+* With a Live CD , use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
 
 ![Windows partition](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/windows10-partition.png?raw=true)
 
@@ -59,7 +60,7 @@ Along with Boot-Repair to restore the GRUB menu.
 
 ![boot-repair](http://pix.toile-libre.org/upload/original/1335260967.png)
 
-Install and run boot-repair with the following commands:
+So put your Live CD back in and install and run boot-repair with the following commands:
 
 ```bash
 sudo add-apt-repository ppa:yannubuntu/boot-repair
