@@ -66,3 +66,12 @@ sudo add-apt-repository ppa:yannubuntu/boot-repair
 sudo apt-get update
 sudo apt-get install -y boot-repair && boot-repair
 ```
+
+## Activate Windows Using Product Key
+
+Don't forget this step, as you won't even be able to personalize your Desktop without doing it. If you didn't write it down don't worry. You can find it in the "purchase" details under your Microsoft Imagine account.
+
+## Disabling Fast Startup
+
+Fast startup is great. As you can imagine it greatly reduces the startup time for Windows. However, it also prevents me from mounting the drive from Mint.
+
