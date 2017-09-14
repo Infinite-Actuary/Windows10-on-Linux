@@ -19,8 +19,24 @@ The Microsoft Imagine access portal (requires `My.UNL credentials`) can be found
 
 http://cba.unl.edu/people/itservices/msdnaa/login/cba-iuv.aspx
 
-
 ![Imagine](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/microsoft-imagine.png)
+
+After logging in, you can download the `windows_10_education_*.iso` (~4GB) and use it to create a bootable USB drive.
+
+## Creating a bootable USB
+
+Before actually succeeding, I tried:
+
+* [Rufus](http://rufus.akeo.ie/) (using Wine)
+* [UNetbootin](http://unetbootin.github.io/)
+* Default utility `USB Image Writer` provided by Mint
+
+All of which are great pieces of software, but simply didn't work for my use case. However, [WoeUSB](https://github.com/slacka/WoeUSB)
+
+> A Linux program to create Windows USB stick installer from a real Windows DVD or an image.
+
+worked great!
+
 
 ## Preparations - Make Space for Windows 10
 * With a [Live CD](https://en.wikipedia.org/wiki/Live_CD), use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
