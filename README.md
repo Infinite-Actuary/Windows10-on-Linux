@@ -20,7 +20,7 @@ The Microsoft Imagine access portal (requires `My.UNL credentials`) can be found
 http://cba.unl.edu/people/itservices/msdnaa/login/cba-iuv.aspx
 
 
-![Imagine]9https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/microsoft-imagine.png?raw=true)
+![Imagine](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/microsoft-imagine.png)
 
 ## Preparations - Make Space for Windows 10
 * With a [Live CD](https://en.wikipedia.org/wiki/Live_CD), use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
