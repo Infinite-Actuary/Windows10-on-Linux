@@ -58,3 +58,11 @@ I used this wiki: https://help.ubuntu.com/community/RecoveringUbuntuAfterInstall
 Along with Boot-Repair to restore the GRUB menu.
 
 ![boot-repair](http://pix.toile-libre.org/upload/original/1335260967.png)
+
+Install and run boot-repair with the following commands:
+
+```bash
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+sudo apt-get install -y boot-repair && boot-repair
+```
