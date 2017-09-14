@@ -3,3 +3,5 @@
 
 ## Preparations - Make Space for Windows 10
 * With a [Live CD](https://en.wikipedia.org/wiki/Live_CD), use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
+
+![Windows partition](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/windows10-partition.png?raw=true)
