@@ -46,3 +46,15 @@ sudo apt install woeusb
 * With a [Live CD](https://en.wikipedia.org/wiki/Live_CD), use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
 
 ![Windows partition](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/windows10-partition.png?raw=true)
+
+This is where your new installation of Windows will go!
+
+## Restoring GRUB Boot Loader
+
+Unfortunately I found that Windows and Mint don't play nice with one another. After installing Windows I no longer had access to Mint via the [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) boot loader.
+
+I used this wiki: https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows
+
+Along with Boot-Repair to restore the GRUB menu.
+
+![boot-repair](http://pix.toile-libre.org/upload/original/1335260967.png)
