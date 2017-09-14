@@ -76,3 +76,11 @@ Don't forget this step, as you won't even be able to personalize your Desktop wi
 Fast startup is great. As you can imagine it greatly reduces the startup time for Windows. However, it also prevents me from mounting the drive from Mint.
 
 ![no-mount](https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/windows10-mount.png)
+
+I found several ways to (possibly) remedy this:
+
+* Mounting in read only mode
+* Mount with the `remove_hiberfile` option
+* Using `ntfsfix` on the Windows partition to terminate the hibernated session
+
+Ultimately I decided to simply [turn off](https://in.answers.acer.com/app/answers/detail/a_id/37059/~/windows-10%3A-enable-or-disable-fast-startup) the fast startup feature in Windows. You can also disable hibernation from the command prompt (`cmd`) with `powercfg /h off`.
