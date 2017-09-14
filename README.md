@@ -15,11 +15,12 @@ Most students know [Huskertech](http://sales.unl.edu/software) sells Windows 10 
 
 have access to a variety of **free** software from [Microsoft Imagine](https://en.wikipedia.org/wiki/Microsoft_Imagine) (formerly **DreamSpark**) including Windows 10. All graciously provided by [Student IT Resources](http://cba.unl.edu/people/itservices/msdnaa/login/cba-iuv.aspx) and a sprinkle of student fees :)
 
-The Microsoft Imagine access portal can be found here:
+The Microsoft Imagine access portal (requires `My.UNL credentials`) can be found here:
 
 http://cba.unl.edu/people/itservices/msdnaa/login/cba-iuv.aspx
 
-and requires your `My.UNL credentials`.
+
+![Imagine]9https://github.com/Infinite-Actuary/Windows10-on-Linux/blob/master/images/microsoft-imagine.png?raw=true)
 
 ## Preparations - Make Space for Windows 10
 * With a [Live CD](https://en.wikipedia.org/wiki/Live_CD), use `Gparted` to create a (>20 GB) [NTFS](https://en.wikipedia.org/wiki/NTFS) formatted partition on `/dev/sda`
