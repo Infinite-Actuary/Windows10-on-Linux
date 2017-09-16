@@ -52,7 +52,7 @@ This is where your new installation of Windows will go!
 
 ## Restoring GRUB Boot Loader
 
-Unfortunately I found that Windows and Mint don't play nice with one another. After installing Windows I no longer had access to Mint via the [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) boot loader.
+Unfortunately I found that after installing Windows, it overwrites the boot sector. Thus, I no longer had access to Mint via the [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) boot loader just after the BIOS loads.
 
 I used this wiki: https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows
 
