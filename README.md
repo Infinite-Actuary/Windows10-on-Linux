@@ -13,7 +13,7 @@ Most students know [Huskertech](http://sales.unl.edu/software) sells Windows 10 
 * Marketing
 * Supply Chain Management
 
-have access to a variety of **free** software from [Microsoft Imagine](https://en.wikipedia.org/wiki/Microsoft_Imagine) (formerly **DreamSpark**) including Windows 10. All graciously provided by [Student IT Resources](http://cba.unl.edu/people/itservices/msdnaa/login/cba-iuv.aspx) and a sprinkle of student fees :)
+have access to a variety of **free** software from [Microsoft Imagine](https://en.wikipedia.org/wiki/Microsoft_Imagine) (formerly **DreamSpark**) including Windows 10. All graciously provided by [Student IT Resources](http://cba.unl.edu/people/itservices/msdnaa/login/cba-iuv.aspx) and your $110 technology fee :)
 
 The Microsoft Imagine access portal (requires `My.UNL credentials`) can be found here:
 
